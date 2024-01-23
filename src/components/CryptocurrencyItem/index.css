@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+.currency-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.values-container {
+  display: flex;
+  align-items: center;
+}
+
+.currency-value {
+  color: #ffffff;
+  margin-left: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 24px;
+}
